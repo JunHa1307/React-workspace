@@ -13,11 +13,11 @@ import LifecycleUpdate from './01_ Lifecycle';
 import PropsDatatype from './02_PropsDatatype';
 /*
   JSX(JavaScriptXML)문법 : javascript의 문법 안에 HTML요소가 함께 들어가 있는 형태의 언어
-  리액트에서 ui를 구성하기 위해 보편적으로 사용되는 문법. 자바스크립트의 문법을 통해 HTML요소를 생성하ㅡㄴ
+  리액트에서 ui를 구성하기 위해 보편적으로 사용되는 문법. 자바스크립트의 문법을 통해 HTML요소를 생성하는
   역할을 한다.
 
   document.createElement("div") (명령적 방식) << 밑에 <div>가 이걸 실행하여 생성되는 방식
-  let body = document.querySelecto("#body");
+  let body = document.querySelector("#body");
   let div = document.createElement("div");
   let h2 = document.createElement("h2");
 
